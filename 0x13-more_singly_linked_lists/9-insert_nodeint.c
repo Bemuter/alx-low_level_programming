@@ -6,7 +6,7 @@
  * @head: head of a list.
  * @idx: index of the list where the new node is
  * added.
- * @n:; integer element.
+ * @n: integer element.
  *
  * Return: the address of the new node, or NULL if it
  * failed.
@@ -32,7 +32,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
-		return (null);
+		return (NULL);
 
 	new->n = n;
 
